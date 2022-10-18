@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package user.v1;
+package greet.v1;
 
-option go_package = "github.com/x-eight/BDD-golang/gen/proto/user/v1;userpb";
+option go_package = "github.com/x-eight/BDD-golang/gen/proto/greet/v1;greetpb";
 
 message GreetRequest {
     string first_name = 1;
